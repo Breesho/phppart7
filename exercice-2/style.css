@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flexible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    flex-direction: column;
+
+}
+
+input {
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+   
+}
+::placeholder {
+    color: white;
+}
+
+input.submit {
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+div.cc {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+}
